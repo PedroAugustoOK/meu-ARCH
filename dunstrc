@@ -1,0 +1,30 @@
+[global]
+    # Configurações de Geometria e Aparência
+    width = 300
+    height = 50
+    origin = top-right
+    offset = 10x10
+    
+    # Arredondamento dos cantos, igual ao da sua Waybar
+    corner_radius = 10
+    
+    # Fonte e cores
+    font = Ubuntu Nerd Font 10
+    
+    # Configurações de tempo
+    stick_timeout = 2
+    show_age_threshold = 60
+    
+    # Transparência
+    transparency = 0
+    
+    # Cores baseadas nos estilos da sua Waybar
+    # As cores de fundo são as mesmas dos módulos da Waybar
+     
+    [normal]
+        background = "#1e1e2e"
+        foreground = "#cdd6f4"
+        frame_color = "#9999CC" # Bordas da Waybar
+        timeout = 3
+
+ 
